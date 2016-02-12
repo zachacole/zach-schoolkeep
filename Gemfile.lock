@@ -1,0 +1,38 @@
+GIT
+  remote: git://github.com/SchoolKeep/schoolkeep-ruby.git
+  revision: 1e52bbc6e2f318f478befeea66bcadbf50c85780
+  specs:
+    schoolkeep (0.0.1)
+      faraday (~> 0.9)
+      i18n
+      scribble
+      thor (~> 0.19.0)
+
+GIT
+  remote: git://github.com/stefankroes/scribble.git
+  revision: bd889cff108c1785cd28150763abd9b31782b44f
+  specs:
+    scribble (1.0.0)
+      parslet (~> 1.6)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    blankslate (3.1.3)
+    faraday (0.9.2)
+      multipart-post (>= 1.2, < 3)
+    i18n (0.7.0)
+    multipart-post (2.0.0)
+    parslet (1.7.1)
+      blankslate (>= 2.0, <= 4.0)
+    thor (0.19.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  schoolkeep!
+  scribble!
+
+BUNDLED WITH
+   1.11.2
