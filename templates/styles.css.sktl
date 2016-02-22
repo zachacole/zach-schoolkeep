@@ -9,3 +9,7 @@
 {{ color_palette.header_font_hover_color }}
 {{ color_palette.header_color }}
 */
+
+.uk-container {
+  width: 80%;
+}
