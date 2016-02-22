@@ -1,0 +1,252 @@
+---
+globals:
+  current_school:
+    logo_navigation_url: http://lyft.com/drive
+    logo_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/MHKycAWJQM6lifcZpnvI/convert?cache=true&fit=max&h=60&w=450
+    favicon_url: https://www.filepicker.io/api/file/M2XxxMolS70kA8PgW7il
+    name: Lyft
+    disable_social_share?: false
+    has_custom_styles?: 
+    apps:
+      commerce:
+        active?: false
+  current_learner:
+    name: Test Learner
+    access_course?: true
+models:
+  e1tbvg:
+    about_label: About the Course
+    cover_path: /outline/e1tbvg/cover
+    details_path: /catalog/e1tbvg/getting-on-the-road
+    enrollment_url: https://lyft.schoolkeep.com/catalog/e1tbvg/enrollments
+    featured_image_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/5cCTAGl1TF64Ljtxygfg/convert?cache=true&fit=crop&h=503&w=819
+    formatted_price: Free
+    full_description: 
+    go_to_label: Go to Course
+    instructor_names: Julia Hammerschlag
+    list_image_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/5cCTAGl1TF64Ljtxygfg/convert?cache=true&fit=crop&h=500&w=820
+    name: Getting on the Road
+    new_order_path: /catalog/e1tbvg/orders/new
+    outline_label: Course Outline
+    outline_path: /outline/e1tbvg
+    payment_required?: false
+    progress_text: 50% Complete
+    promo_video_embed: 
+    ribbon: 
+    short_description: This will give you a comprehensive overview of the onboarding
+      process
+    start_or_continue: Continue
+    view_label: View Course
+    instructors:
+    - name: Julia Hammerschlag
+      image_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/uVSS1QnlSemqmnOf9UWQ/convert?cache=true&fit=crop&h=500&w=500
+      title: Driver Education Lead
+      bio: <p>Community builder, content creator and design thinker with experience
+        in brand strategy, operations and storytelling. <br><br>Interested in harnessing
+        the power of collaborative economies and bringing purpose-driven narratives
+        to life. </p>
+    published_sections:
+    - name: Set Up
+      activities:
+      - list_class: richtext
+        title: New activity
+      - list_class: survey
+        title: Survey
+      - list_class: choose
+        title: New activity
+    - name: New section
+      activities:
+      - list_class: richtext
+        title: Introduction
+      - list_class: assignment
+        title: New activity
+  i4w1nkg7:
+    about_label: About the Course
+    cover_path: /outline/i4w1nkg7/cover
+    details_path: /catalog/i4w1nkg7/introducing-lyft-line
+    enrollment_url: https://lyft.schoolkeep.com/catalog/i4w1nkg7/enrollments
+    featured_image_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/9lzGWmf6TOOVqEKbJP29/convert?cache=true&fit=crop&h=503&w=819
+    formatted_price: Free
+    full_description: <p>Lyft Line matches multiple passengers along the same route.
+      That means longer rides, less downtime, and more money in your pocket. Let's
+      review the Lyft Line basics, so you're prepared for your first Line ride!</p>
+    go_to_label: Go to Course
+    instructor_names: Julia Hammerschlag
+    list_image_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/9lzGWmf6TOOVqEKbJP29/convert?cache=true&fit=crop&h=500&w=820
+    name: Introducing Lyft Line
+    new_order_path: /catalog/i4w1nkg7/orders/new
+    outline_label: Course Outline
+    outline_path: /outline/i4w1nkg7
+    payment_required?: false
+    progress_text: 50% Complete
+    promo_video_embed: 
+    ribbon: 
+    short_description: 
+    start_or_continue: Continue
+    view_label: View Course
+    instructors:
+    - name: Julia Hammerschlag
+      image_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/uVSS1QnlSemqmnOf9UWQ/convert?cache=true&fit=crop&h=500&w=500
+      title: Driver Education Lead
+      bio: <p>Community builder, content creator and design thinker with experience
+        in brand strategy, operations and storytelling. <br><br>Interested in harnessing
+        the power of collaborative economies and bringing purpose-driven narratives
+        to life. </p>
+    published_sections:
+    - name: Introduction
+      activities:
+      - list_class: richtext
+        title: Introducing Lyft Line
+    - name: Step-by-Step
+      activities:
+      - list_class: richtext
+        title: The Passenger Requests a Ride
+      - list_class: richtext
+        title: The Driver Picks up the Passenger
+      - list_class: richtext
+        title: Party Size is Confirmed
+      - list_class: richtext
+        title: ! 'App Guides You '
+    - name: More on Line
+      activities:
+      - list_class: richtext
+        title: Set Your Destination
+      - list_class: richtext
+        title: Line Pay
+      - list_class: richtext
+        title: Don't Cancel the Ride
+      - list_class: webpage
+        title: Give It a Try
+    - name: Quiz
+      activities:
+      - list_class: quiz
+        title: Lyft Line Quiz
+  cytpxkxz:
+    about_label: About the Course
+    cover_path: /outline/cytpxkxz/cover
+    details_path: /catalog/cytpxkxz/navigation-course-chicago
+    enrollment_url: https://lyft.schoolkeep.com/catalog/cytpxkxz/enrollments
+    featured_image_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/RIHUegNRgCQ5eUVa54ne/convert?cache=true&fit=crop&h=503&w=819
+    formatted_price: Free
+    full_description: 
+    go_to_label: Go to Course
+    instructor_names: Julia Hammerschlag
+    list_image_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/RIHUegNRgCQ5eUVa54ne/convert?cache=true&fit=crop&h=500&w=820
+    name: Navigation Course - Chicago
+    new_order_path: /catalog/cytpxkxz/orders/new
+    outline_label: Course Outline
+    outline_path: /outline/cytpxkxz
+    payment_required?: false
+    progress_text: 50% Complete
+    promo_video_embed: 
+    ribbon: 
+    short_description: 
+    start_or_continue: Continue
+    view_label: View Course
+    instructors:
+    - name: Julia Hammerschlag
+      image_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/uVSS1QnlSemqmnOf9UWQ/convert?cache=true&fit=crop&h=500&w=500
+      title: Driver Education Lead
+      bio: <p>Community builder, content creator and design thinker with experience
+        in brand strategy, operations and storytelling. <br><br>Interested in harnessing
+        the power of collaborative economies and bringing purpose-driven narratives
+        to life. </p>
+    published_sections:
+    - name: Chicago - General
+      activities:
+      - list_class: richtext
+        title: The Chicago Grid
+      - list_class: quiz
+        title: The Grid Quiz
+      - list_class: richtext
+        title: Noteworthy Locations
+      - list_class: quiz
+        title: Landmarks Quiz
+      - list_class: richtext
+        title: Airports
+      - list_class: quiz
+        title: Airports Quiz
+      - list_class: richtext
+        title: General Tips & Tricks
+    - name: Chicago - River North
+      activities:
+      - list_class: richtext
+        title: River North Streets & Landmarks
+      - list_class: richtext
+        title: River North Tips & Tricks
+      - list_class: quiz
+        title: River North Quiz
+    - name: Chicago - Wrigley/Lakeview
+      activities:
+      - list_class: richtext
+        title: Wrigley/Lakeview Streets & Landmarks
+      - list_class: richtext
+        title: Wrigley/Lakeview Tips & Tricks
+      - list_class: quiz
+        title: Wrigley/Lakeview Quiz
+    - name: Chicago - West Loop
+      activities:
+      - list_class: richtext
+        title: West Loop Streets & Landmarks
+      - list_class: richtext
+        title: West Loop Tips & Tricks
+      - list_class: quiz
+        title: West Loop Quiz
+templates:
+  custom_page.html.sktl: {}
+  _header.html.sktl:
+    header_navigations:
+    - name: Home
+      path: /
+      external?: false
+  _footer.html.sktl:
+    website_footer:
+      show_navigation_links?: true
+      show_social_media_links?: true
+      show_customer_service_email?: true
+      show_powered_by_school_keep?: true
+      school_customer_service_email: 
+      social_media_links: []
+    footer_navigations:
+    - name: Home
+      path: /
+      external?: false
+  styles.css.sktl:
+    color_palette:
+      button_font_color: ! '#ffffff'
+      button_color: ! '#ff00bf'
+      button_hover_color: ! '#c600bb'
+      header_font_color: ! '#ffffff'
+      header_font_hover_color: ! '#f3f3f5'
+      header_color: ! '#ff00bf'
+  course_index.html.sktl:
+    course_catalog:
+      headline: Course Catalog
+      subheadline: Great courses from the comfort of your home or office.
+    courses:
+    - :e1tbvg
+    - :i4w1nkg7
+    - :cytpxkxz
+  homepage.html.sktl:
+    homepage:
+      headline: Lyft Universtity
+      subheadline: Learn how to take the wheel and drive with Lyft
+      artwork_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/WvABDckiQW6BJXaGqx1q?cache=true
+      featured_courses_headline: Featured Courses
+      featured_courses_subheadline: Courses to get your started with Lyft
+      published_featured_courses:
+      - :navigation-course-chicago
+      - :introducing-lyft-line
+      - :getting-on-the-road
+  course_details.html.sktl:
+    course: :e1tbvg
+  my_content.html.sktl:
+    my_content:
+      headline: My Courses
+      subheadline: Courses in which you're currently enrolled
+      courses:
+      - :e1tbvg
+      - :cytpxkxz
+      - :i4w1nkg7
+  course_cover.html.sktl:
+    course: :e1tbvg
