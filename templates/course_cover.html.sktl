@@ -1,4 +1,4 @@
-<link rel="stylesheet" media="all" href="styles.css.sktl">
+<link rel="stylesheet" media="all" href="{{ routes.custom_styles_path }}">
 
 <header class="uk-navbar uk-navbar-attached uk-border-bottom learning-header slide">
   <div class="uk-navbar-flip">
