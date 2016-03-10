@@ -2,7 +2,7 @@
 globals:
   current_school:
     logo_navigation_url: http://lyft.com/drive
-    logo_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/MHKycAWJQM6lifcZpnvI/convert?cache=true&fit=max&h=60&w=450
+    logo_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/YHistRkQIKF5rvyomHiA/convert?cache=true&fit=max&h=60&w=450
     favicon_url: https://www.filepicker.io/api/file/M2XxxMolS70kA8PgW7il
     name: Lyft
     disable_social_share?: false
@@ -21,7 +21,10 @@ models:
     enrollment_url: https://lyft.schoolkeep.com/catalog/e1tbvg/enrollments
     featured_image_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/5cCTAGl1TF64Ljtxygfg/convert?cache=true&fit=crop&h=503&w=819
     formatted_price: Free
-    full_description: 
+    full_description: <p><img src="https://schoolkeep-production.s3.amazonaws.com/wysiwyg/lyft/20160309175648_dropping_off_2x.png">    Section
+      Number 1</p><p><img src="https://schoolkeep-production.s3.amazonaws.com/wysiwyg/lyft/20160309175705_learning_curve_2x.png">    Section
+      Number 2</p><p><img src="https://schoolkeep-production.s3.amazonaws.com/wysiwyg/lyft/20160309175740_navigation_2x.png">    Section
+      Number 3</p>
     go_to_label: Go to Course
     instructor_names: Julia Hammerschlag
     list_image_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/5cCTAGl1TF64Ljtxygfg/convert?cache=true&fit=crop&h=500&w=820
@@ -33,8 +36,10 @@ models:
     progress_text: 50% Complete
     promo_video_embed: 
     ribbon: 
-    short_description: This will give you a comprehensive overview of the onboarding
-      process
+    short_description: In this lesson, you'll learn all about Lyft's culture, how
+      we take care of drivers, and how you can make the most of your time on the road.
+      Maybe some more copy about this lesson and what the driver can expect to learn
+      here.
     start_or_continue: Continue
     view_label: View Course
     instructors:
@@ -63,7 +68,7 @@ models:
   i4w1nkg7:
     about_label: About the Course
     cover_path: /outline/i4w1nkg7/cover
-    details_path: /catalog/i4w1nkg7/introducing-lyft-line
+    details_path: /catalog/i4w1nkg7/introducing-lyft-line-mia
     enrollment_url: https://lyft.schoolkeep.com/catalog/i4w1nkg7/enrollments
     featured_image_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/9lzGWmf6TOOVqEKbJP29/convert?cache=true&fit=crop&h=503&w=819
     formatted_price: Free
@@ -71,9 +76,9 @@ models:
       That means longer rides, less downtime, and more money in your pocket. Let's
       review the Lyft Line basics, so you're prepared for your first Line ride!</p>
     go_to_label: Go to Course
-    instructor_names: Julia Hammerschlag
+    instructor_names: 
     list_image_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/9lzGWmf6TOOVqEKbJP29/convert?cache=true&fit=crop&h=500&w=820
-    name: Introducing Lyft Line
+    name: Introducing Lyft Line (MIA)
     new_order_path: /catalog/i4w1nkg7/orders/new
     outline_label: Course Outline
     outline_path: /outline/i4w1nkg7
@@ -84,14 +89,7 @@ models:
     short_description: 
     start_or_continue: Continue
     view_label: View Course
-    instructors:
-    - name: Julia Hammerschlag
-      image_url: https://d3p3alwwakpeoy.cloudfront.net/api/file/uVSS1QnlSemqmnOf9UWQ/convert?cache=true&fit=crop&h=500&w=500
-      title: Driver Education Lead
-      bio: <p>Community builder, content creator and design thinker with experience
-        in brand strategy, operations and storytelling. <br><br>Interested in harnessing
-        the power of collaborative economies and bringing purpose-driven narratives
-        to life. </p>
+    instructors: []
     published_sections:
     - name: Introduction
       activities:
@@ -100,23 +98,23 @@ models:
     - name: Step-by-Step
       activities:
       - list_class: richtext
-        title: The Passenger Requests a Ride
+        title: Requesting a Ride
       - list_class: richtext
-        title: The Driver Picks up the Passenger
+        title: Picking up Your Passenger
       - list_class: richtext
-        title: Party Size is Confirmed
+        title: Confirming Their Party Size
       - list_class: richtext
-        title: ! 'App Guides You '
+        title: Letting the App Guide You
     - name: More on Line
       activities:
       - list_class: richtext
-        title: Set Your Destination
+        title: Setting Your Destination
       - list_class: richtext
-        title: Line Pay
+        title: Getting Paid
       - list_class: richtext
-        title: Don't Cancel the Ride
-      - list_class: webpage
-        title: Give It a Try
+        title: Avoiding Cancellations
+      - list_class: richtext
+        title: Q&A
     - name: Quiz
       activities:
       - list_class: quiz
@@ -204,9 +202,14 @@ templates:
       show_navigation_links?: true
       show_social_media_links?: true
       show_customer_service_email?: true
-      show_powered_by_school_keep?: true
       school_customer_service_email: 
-      social_media_links: []
+      social_media_links:
+      - name: facebook
+        link: http://facebook.com/lyft
+      - name: twitter
+        link: http://twitter.com/lyft
+      - name: instagram
+        link: http://instagram.com/lyft
     footer_navigations:
     - name: Home
       path: /
@@ -236,7 +239,7 @@ templates:
       featured_courses_subheadline: Courses to get your started with Lyft
       published_featured_courses:
       - :navigation-course-chicago
-      - :introducing-lyft-line
+      - :introducing-lyft-line-mia
       - :getting-on-the-road
   course_details.html.sktl:
     course: :e1tbvg
@@ -246,7 +249,11 @@ templates:
       subheadline: Courses in which you're currently enrolled
       courses:
       - :e1tbvg
-      - :cytpxkxz
       - :i4w1nkg7
+      - :cytpxkxz
+      - :me6va2q3
+      - :9jwapfhg
+      - :utnieg5y
+      - :a1c3x7s6
   course_cover.html.sktl:
     course: :e1tbvg

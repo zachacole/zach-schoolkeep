@@ -25,10 +25,11 @@
     </h3>
     <p class="uk-margin-small-top uk-margin-large-bottom">{{ course.instructor_names }}</p>
     {{ if current_learner.access_course?(course) }}
-      <p>{{ course.progress_text(current_learner) }}</p>
-      <a href="{{ course.cover_path }}" class="uk-button uk-button-primary school-website-course-tile-action uk-position-bottom-right">{{ course.go_to_label }}</a>
+      <div class="button-wrapper">
+        <a href="{{ course.cover_path }}" class="uk-button uk-button-primary school-website-course-tile-action uk-position-bottom-center">{{ course.go_to_label }}</a>
+      </div>
     {{ else }}
-      <a href="{{ course.details_path }}" class="uk-button uk-button-outline school-website-course-tile-action uk-position-bottom-right">
+      <a href="{{ course.details_path }}" class="uk-button uk-button-outline school-website-course-tile-action uk-position-bottom-center">
         {{ if app('commerce').active? }}
           {{ course.formatted_price }}
         {{ else }}
