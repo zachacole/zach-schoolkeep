@@ -10,6 +10,169 @@
 {{ color_palette.header_color }}
 */
 
+/* === TYPOGRAPHY === */
+
+*{font-family:"Gotham SSm A","Gotham SSm B",Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif!important}
+
+h1, .uk-h1 {
+  color: #474C62;
+  font-size: 4em;
+  line-height: 1.1em;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h3, .uk-h3 {
+  color: #bfc7d9;
+  font-size: .75em;
+  line-height: 18px;
+}
+
+h4, .uk-h4 {
+  color: #352384;
+  font-size: 1.25em;
+  font-weight: 200;
+}
+p {
+  line-height: 1.75em;
+  color: #333447;
+}
+
+.course-listing p {
+  color: #352384;
+}
+
+/* === BODY === */
+
 .uk-container {
   width: 60%;
+  max-width: 1100px;
+}
+
+.uk-position-bottom-center {
+  /*bottom: 0;*/
+  text-align: center;
+  margin: 0 auto;
+}
+
+.uk-button-primary {
+  position: relative !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+  background: #ff00bf !important;
+  transition: all 0.3s ease !important;
+  border: none;
+}
+
+.completion-button {
+  background-color: #ff00bf;
+  transition: all 0.3s ease !important;
+  border: none;
+}
+
+.uk-button-primary:hover,
+.completion-button:hover {
+  background: #c600bb !important;
+}
+
+.uk-panel,
+.uk-panel-box,
+.uk-panel-box-secondary {
+  position: relative;
+  text-align: center !important;
+  padding-bottom: 45px;
+}
+
+.uk-panel-box-secondary,
+.uk-border {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.uk-panel-box-secondary {
+  min-height: 340px;
+}
+
+.button-wrapper {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  bottom: 20px;
+}
+
+.school-website-course-tile .school-website-course-tile-action {
+  position: relative !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+  bottom: 0 !important;
+  right: 0 !important;
+}
+
+.uk-panel-title {
+  text-align: center;
+}
+
+.uk-panel p,
+.uk-panel h3 {
+  text-align: center;
+}
+
+.page-header:after {
+  background-color: #352384;
+  content: "";
+  display: block;
+  height: 4px;
+  margin: 30px 0 0 0;
+  width: 80px;
+}
+
+.divider-center > .page-header:after {
+  margin: 30px auto 0;
+}
+
+.learning-header.uk-navbar,
+.learning-header.uk-navbar a {
+  background: #ff00bf;
+  color: #fff;
+}
+
+.h3-margin-bottom {
+  margin-bottom: 15px;
+}
+
+.course-cover-description,
+.course-cover-progress {
+  position: relative;
+  margin: 40px 0;
+}
+
+.course-listing img {
+  height: 84px;
+  width: 84px;
+}
+
+/***
+****
+MEDIA QUERIES
+****
+***/
+
+@media only screen and (max-width: 1060px) {
+
+  .uk-container {
+    width: 80%;
+  }
+
+  .course-listing p {
+    font-size: 0.8em;
+  }
+
+}
+
+@media only screen and (max-width: 960px) {
+  .uk-panel-box-secondary {
+    min-height: 360px;
+  }
 }
