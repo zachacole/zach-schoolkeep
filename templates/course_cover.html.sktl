@@ -28,13 +28,8 @@
         <h3>{{ course.about_label }}</h3>
         <p>{{ course.short_description }}</p>
       </div>
-      <div class="course-cover-progress">
-        <h3>{{ course.progress_title }}</h3>
-        {{ course.progress_bar }}
-        <a href="{{ course.outline_path }}" class="uk-button completion-button">Start</a>
-      </div>
     </div>
-    <div class="uk-width-medium-1-2 uk-margin-bottom">
+    <div class="uk-width-medium-1-2">
       <h3 class="h3-margin-bottom">{{ course.outline_label }}</h3>
       <h4 class="course-listing"><strong>{{ course.full_description }}</strong></h4>
       <!--
@@ -46,6 +41,13 @@
         {{ end }}
       </ol>
       -->
+    </div>
+    <div class="uk-width-medium-1-2">
+      <div class="course-cover-progress">
+        <h3>{{ course.progress_title }}</h3>
+        {{ course.progress_bar }}
+        <a href="{{ course.outline_path }}" class="uk-button completion-button">Start</a>
+      </div>
     </div>
   </div>
 </div>

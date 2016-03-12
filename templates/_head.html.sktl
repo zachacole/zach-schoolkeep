@@ -1,10 +1,9 @@
 <link rel="stylesheet" media="all" href="{{ routes.schoolkeep_v3_styles_url }}">
 <link rel="stylesheet" media="all" href="{{ routes.color_scheme_path }}">
-<link href="http://take.lyft.com/type/fontface/Gotham-Book/styles.css" rel="stylesheet" type="text/css">
-<link href="http://take.lyft.com/type/fontface/Gotham-Light/styles.css" rel="stylesheet" type="text/css">
-<link href="http://take.lyft.com/type/fontface/Gotham-Bold/styles.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" media="all" href="styles.css.sktl">
+<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7898432/715602/css/fonts.css" />
 
 {{ if current_school.has_custom_styles? }}
   <link rel="stylesheet" media="all" href="{{ routes.custom_styles_path }}">
+  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7898432/715602/css/fonts.css" />
 {{ end }}
