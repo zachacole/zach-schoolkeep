@@ -43,10 +43,12 @@ h4, .uk-h4 {
 p {
   line-height: 1.75em;
   color: #333447;
+  font-weight: 300;
 }
 
 .course-listing p {
   color: #352384;
+  font-weight: 600;
 }
 
 /* === BODY === */
