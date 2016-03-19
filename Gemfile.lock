@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/SchoolKeep/schoolkeep-ruby.git
-  revision: 1e52bbc6e2f318f478befeea66bcadbf50c85780
+  revision: ea9e034134962ea3fa05c5c7ea705ea4130a835c
   specs:
     schoolkeep (0.0.1)
       faraday (~> 0.9)

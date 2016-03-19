@@ -23,7 +23,7 @@ p {font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue',Helvetica,Arial
 
 h1, .uk-h1 {
   color: #474C62;
-  font-size: 3.5em;
+  font-size: 3em;
   line-height: 1.1em;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -165,22 +165,22 @@ p {
   display: block;
   margin: 0;
   padding-bottom: 20px;
-  width: 54px;
+  width: 80px;
   float: left;
   clear: left;
 }
 
 .course-listing img {
-  height: 54px;
-  width: 54px;
+  height: 80px;
+  width: 80px;
 }
 
 .table-of-contents {
   margin: 0;
-  padding: 10px 0 10px 20px;
+  padding: 20px 0 10px 20px;
   display: block;
   float: left;
-  width: calc(100% - 80px) !important;
+  width: calc(100% - 110px) !important;
 }
 
 /***
