@@ -25,7 +25,6 @@
       <h3 class="h3-margin-bottom">Lesson Overview</h3>
       <h1 class="uk-margin-remove page-header">{{ course.name }}</h1>
       <div class="course-cover-description">
-        <h3>{{ course.about_label }}</h3>
         <p>{{ course.short_description }}</p>
       </div>
     </div>
@@ -42,6 +41,8 @@
       </ol>
       -->
     </div>
+  </div>
+  <div class="uk-grid uk-grid-large">
     <div class="uk-width-medium-1-2">
       <div class="course-cover-progress">
         <h3>{{ course.progress_title }}</h3>
